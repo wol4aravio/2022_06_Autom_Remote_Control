@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "code"
+version = "0.1.0"
+description = ""
+authors = ["wol4aravio <panovskiy.v@yandex.ru>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "3.8.*"
+scipy = "^1.8.1"
+
+[tool.poetry.dev-dependencies]
+streamlit = "^1.9.2"
+notebook = "^6.4.11"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
